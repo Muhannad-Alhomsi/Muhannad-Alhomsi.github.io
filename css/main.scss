@@ -36,6 +36,7 @@ html, body{
     margin: 0px;
     padding: 0px;
     background-color:var(--color-black);
+    overflow-x: hidden;
 }
 .mu-header-title{
     .mu-title{
@@ -577,10 +578,21 @@ html, body{
         text-transform: uppercase;
     }
     .mu-solid{
+      span{
         color: var(--color-white);
         font-size: 40px;
         font-weight: 600;
-        letter-spacing: 1px;   
+        letter-spacing: 1px;  
+      }
+      .bg{
+        background-color: var(--color-red);
+        width: 140px;
+        height: 40px;
+        position: relative;
+        display: inline-block;
+        right: 124px;
+        top: 6px;
+      }
     }
     
     .mu-red{
@@ -607,6 +619,29 @@ html, body{
 
 }
 .serv-section{
+  position: relative;
+  .mu-s-bg{
+      background: var(--color-red);
+      height: 100%;
+      position: absolute;
+      top: 0%;
+      width: 100%;
+      left: 0%;
+      z-index: 4;
+    }
+    .mu-pos{
+      position: relative;
+      overflow: hidden;
+      .mu-img-l{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: #7b1315af;
+        z-index: 2;
+      }
+    }
     h4{
         color: var(--color-white);
         font-family: Montserrat-Regular !important;

@@ -45,6 +45,7 @@ html, body {
   margin: 0px;
   padding: 0px;
   background-color: var(--color-black);
+  overflow-x: hidden;
 }
 
 .mu-header-title .mu-title {
@@ -536,11 +537,21 @@ html, body {
   text-transform: uppercase;
 }
 
-.mu-bg-header .mu-solid {
+.mu-bg-header .mu-solid span {
   color: var(--color-white);
   font-size: 40px;
   font-weight: 600;
   letter-spacing: 1px;
+}
+
+.mu-bg-header .mu-solid .bg {
+  background-color: var(--color-red);
+  width: 140px;
+  height: 40px;
+  position: relative;
+  display: inline-block;
+  right: 124px;
+  top: 6px;
 }
 
 .mu-bg-header .mu-red {
@@ -564,6 +575,35 @@ html, body {
 .mu-bg-header .mu-scroll {
   width: 100px;
   height: 100px;
+}
+
+.serv-section {
+  position: relative;
+}
+
+.serv-section .mu-s-bg {
+  background: var(--color-red);
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  left: 0%;
+  z-index: 4;
+}
+
+.serv-section .mu-pos {
+  position: relative;
+  overflow: hidden;
+}
+
+.serv-section .mu-pos .mu-img-l {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #7b1315af;
+  z-index: 2;
 }
 
 .serv-section h4 {
