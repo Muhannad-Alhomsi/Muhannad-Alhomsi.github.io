@@ -59,7 +59,7 @@ html, body{
 .button-container-2 .mu-btn-white {
     padding: 10px 20px;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 22px;
     background: var(--color-white);
     -webkit-mask: url("../img/hover-w.png");
     mask: url("../img/hover-w.png");
@@ -131,7 +131,7 @@ html, body{
     color: var(--color-white);
     text-align: center;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 22px;
     padding: 0px 20px;
     overflow: hidden;
     transition: all .3s;
@@ -1334,5 +1334,11 @@ html, body{
   }
   .mu-img-scroll{
     display: none;
+  }
+  .button-container-2 .mu-btn-white{
+    font-size: 17px;
+  }
+  .mas{
+    font-size: 17px;
   }
 } 
