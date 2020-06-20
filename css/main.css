@@ -64,7 +64,7 @@ html, body {
   overflow: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .button-container-2 .mu-btn-white {
@@ -210,6 +210,7 @@ html, body {
   left: 0%;
   top: 0%;
   z-index: 9999;
+  overflow: hidden;
 }
 
 #loader.complete {
@@ -219,8 +220,6 @@ html, body {
 .loader {
   width: 148px;
   height: 100px;
-  top: 44%;
-  left: 45%;
   position: absolute;
 }
 
@@ -519,6 +518,10 @@ html, body {
 }
 
 /*end*/
+.mu-main {
+  display: none;
+}
+
 .mu-height {
   margin-top: 20px;
   margin-bottom: 25px;
@@ -560,6 +563,7 @@ html, body {
   font-weight: 700;
   letter-spacing: 1px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .mu-bg-header h2 {
@@ -749,6 +753,7 @@ html, body {
   background-size: cover;
   background-position: center;
   height: 240px;
+  position: relative;
 }
 
 .project-section .proj-img-bg:hover .mu-img-proj {
@@ -776,9 +781,10 @@ html, body {
 }
 
 .project-section .proj-img-bg h2 {
-  position: relative;
-  bottom: 255px;
-  left: 280px;
+  position: absolute;
+  right: 22px;
+  top: -20px;
+  z-index: 99;
   font-size: 22px;
   -webkit-writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
@@ -1141,45 +1147,12 @@ html, body {
 }
 
 /* @media */
-@media only screen and (max-width: 1135px) {
-  .project-section .proj-img-bg h2 {
-    left: 250px;
-  }
-}
-
-@media only screen and (max-width: 1025px) {
-  .project-section .proj-img-bg h2 {
-    left: 222px;
-  }
-}
-
 @media only screen and (max-width: 960px) {
   .mu-bg-header h2 {
     font-size: 78px;
   }
-  .project-section .proj-img-bg h2 {
-    left: 330px;
-  }
   .mu-bg-header .mu-red {
     font-size: 30px;
-  }
-}
-
-@media only screen and (max-width: 890px) {
-  .project-section .proj-img-bg h2 {
-    left: 304px;
-  }
-}
-
-@media only screen and (max-width: 850px) {
-  .project-section .proj-img-bg h2 {
-    left: 287px;
-  }
-}
-
-@media only screen and (max-width: 798px) {
-  .project-section .proj-img-bg h2 {
-    left: 254px;
   }
 }
 
@@ -1237,34 +1210,19 @@ html, body {
 
 @media only screen and (max-width: 360px) {
   .mu-height {
-    background-position: 36%;
+    background-position: 38%;
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 332px) {
   .mu-height {
-    background-position: 36%;
-  }
-}
-
-@media only screen and (max-width: 740px) {
-  .project-section .proj-img-bg h2 {
-    left: 235px;
-  }
-}
-
-@media only screen and (max-width: 654px) {
-  .project-section .proj-img-bg h2 {
-    left: 210px;
+    background-position: 42%;
   }
 }
 
 @media only screen and (max-width: 640px) {
   .mu-bg-header h2 {
     font-size: 78px;
-  }
-  .project-section .proj-img-bg h2 {
-    left: 472px;
   }
   .mu-bg-header .mu-red {
     font-size: 30px;
@@ -1275,9 +1233,6 @@ html, body {
   .mu-bg-header h2 {
     font-size: 78px;
   }
-  .project-section .proj-img-bg h2 {
-    left: 415px;
-  }
   .mu-bg-header .mu-red {
     font-size: 30px;
   }
@@ -1286,9 +1241,6 @@ html, body {
 @media only screen and (max-width: 524px) {
   .mu-bg-header h2 {
     font-size: 78px;
-  }
-  .project-section .proj-img-bg h2 {
-    left: 384px;
   }
   .mu-bg-header .mu-red {
     font-size: 30px;
@@ -1299,9 +1251,6 @@ html, body {
   .mu-bg-header h2 {
     font-size: 60px;
   }
-  .project-section .proj-img-bg h2 {
-    left: 356px;
-  }
   .mu-bg-header .mu-red {
     font-size: 25px;
   }
@@ -1311,17 +1260,20 @@ html, body {
   .mu-bg-header h2 {
     font-size: 50px;
   }
-  .project-section .proj-img-bg h2 {
-    left: 314px;
-  }
   .mu-bg-header .mu-red {
     font-size: 20px;
   }
 }
 
-@media only screen and (max-width: 420px) {
-  .project-section .proj-img-bg h2 {
-    left: 265px;
+@media only screen and (max-width: 640px) {
+  .mu-hover-part {
+    stroke-width: 6px;
+  }
+  .skills-section .mu-svg-b svg {
+    width: 100%;
+  }
+  .mu-img-scroll {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */

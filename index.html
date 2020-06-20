@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="keywords" content="HTML5, CSS3, UIKIT, JavaScript, Web Design, UI Design">
+    <meta name="description" content="MUHANNAD ALHOMSI is a Web & Ui Designer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Muhannad Alhomsi">
+    <link rel="icon" href="img/logo.png" >
+    <title>Muhannad AlHomsi || Web Design</title>
     <link rel="stylesheet" href="css/uikit.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>    
 <body>
     <div id="mu-tran"></div>
-    <main>
+    <main class="mu-main">
         <section class="mu-bg-header mu-height">
             <div class="uk-container">
                 
@@ -26,8 +31,8 @@
                             <p class="mu-red mu-text-h">Web & Ui Designer</p>
                         </div>
                         <div class="button-container-2">
-                            <a href="#" class="mas">My Portfolio</a>
-                            <a href="#" class="mu-btn-white">My Portfolio</a>
+                            <a href="#work" class="mas" uk-scroll>My Portfolio</a>
+                            <a href="#work" class="mu-btn-white" uk-scroll>My Portfolio</a>
                         </div>
                     </div>
 
@@ -373,7 +378,7 @@
             </div>
         </section>
 
-        <section class="project-section">
+        <section id="work" class="project-section">
             <div class="uk-container">
                 
                 <div class="uk-text-center mu-header-title">
@@ -389,7 +394,7 @@
                     </svg>      
                 </div>
 
-                <div class="porject-part">
+                <div class="porject-part uk-text-center">
 
                     <div class="uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid>
 
@@ -597,17 +602,17 @@
 
     </main>
     <div id="loader">
-        <div class="loader">
+        <div class="loader uk-position-center">
             <div class="roller"></div>
             <div class="roller"></div>
         </div>
         
-        <div id="loader2" class="loader">
+        <div id="loader2" class="loader uk-position-center">
             <div class="roller"></div>
             <div class="roller"></div>
         </div>
         
-        <div id="loader3" class="loader">
+        <div id="loader3" class="loader uk-position-center">
             <div class="roller"></div>
             <div class="roller"></div>
         </div>
@@ -621,7 +626,6 @@
     <script src="js/uikit-icons.min.js"></script>
     <!--gsap-->
     <script src="js/ScrollMagic.min.js"></script>
-    <script src="js/debug.addIndicators.min.js"></script>
     <script src="js/animation.gsap.min.js"></script>
     <script src="js/TweenMax.min.js"></script>
     <!--timeline-->
@@ -642,6 +646,7 @@
         }
         function fun_play_img(){
             $('#mu-tran').addClass('Move');
+            $('.mu-main').css("display","block");
         }
         function fun_display_img(){
             $('#mu-tran').css("display","none");
