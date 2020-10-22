@@ -136,8 +136,9 @@ $(document).ready(function () {
     { opacity: 1, animationTimingOut }
   );
   Skills_TL.from("#UiDesing", 4, {
-    y: -10,
-    x: -10,
+    y: 500,
+    x: 1000,
+    scale: 0,
     opacity: 0,
     ease: Power3.easeInOut,
   })
@@ -145,8 +146,9 @@ $(document).ready(function () {
       "#HTML5",
       4,
       {
-        y: 100,
-        x: +400,
+        y: 500,
+        x: 950,
+        scale: 0,
         opacity: 0,
         ease: Power3.easeInOut,
       },
@@ -156,8 +158,9 @@ $(document).ready(function () {
       "#UIKIT",
       4,
       {
-        y: 230,
-        x: 340,
+        y: 500,
+        x: 900,
+        scale: 0,
         opacity: 0,
         ease: Power3.easeInOut,
       },
@@ -167,8 +170,9 @@ $(document).ready(function () {
       "#ReactJs",
       4,
       {
-        y: 300,
-        x: 200,
+        y: 500,
+        x: 900,
+        scale: 0,
         opacity: 0,
         ease: Power3.easeInOut,
       },
@@ -178,8 +182,9 @@ $(document).ready(function () {
       "#JavaScript",
       4,
       {
-        y: 200,
-        x: 10,
+        y: 500,
+        x: 950,
+        scale: 0,
         opacity: 0,
         ease: Power3.easeInOut,
       },
@@ -189,8 +194,9 @@ $(document).ready(function () {
       "#CSS3",
       4,
       {
-        y: 90,
-        x: 35,
+        y: 500,
+        x: 1000,
+        scale: 0,
         opacity: 0,
         ease: Power3.easeInOut,
       },

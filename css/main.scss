@@ -729,53 +729,61 @@ body {
     svg {
       width: 70%;
       stroke: var(--color-white);
+      fill: var(--color-white);
     }
     #UiDesing {
       transition: all 0.2s ease-in-out;
+
       cursor: pointer;
       &:hover {
-        stroke: #7b1315a1;
+        stroke: rgba(255, 255, 255, 0.7);
       }
     }
     #CSS3 {
       transition: all 0.2s ease-in-out;
+
       cursor: pointer;
       &:hover {
-        stroke: #7b1315a1;
+        stroke: rgba(255, 255, 255, 0.7);
       }
     }
     #JavaScript {
       transition: all 0.2s ease-in-out;
+
       cursor: pointer;
       &:hover {
-        stroke: #7b1315a1;
+        stroke: rgba(255, 255, 255, 0.7);
       }
     }
     #ReactJs {
       transition: all 0.2s ease-in-out;
+
       cursor: pointer;
       &:hover {
-        stroke: #7b1315a1;
+        stroke: rgba(255, 255, 255, 0.7);
       }
     }
     #UIKIT {
       transition: all 0.2s ease-in-out;
+
       cursor: pointer;
       &:hover {
-        stroke: #7b1315a1;
+        stroke: rgba(255, 255, 255, 0.7);
       }
     }
     #HTML5 {
       transition: all 0.2s ease-in-out;
+
       cursor: pointer;
       &:hover {
-        stroke: #7b1315a1;
+        stroke: rgba(255, 255, 255, 0.7);
       }
     }
     .mu-hover-part {
       transition: all 0.2s ease-in-out;
+
       &:hover {
-        stroke: #7b1315a1;
+        stroke: rgba(255, 255, 255, 0.7);
       }
     }
   }

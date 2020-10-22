@@ -708,6 +708,7 @@ body {
 .skills-section .mu-svg-b svg {
   width: 70%;
   stroke: var(--color-white);
+  fill: var(--color-white);
 }
 
 .skills-section .mu-svg-b #UiDesing {
@@ -717,7 +718,7 @@ body {
 }
 
 .skills-section .mu-svg-b #UiDesing:hover {
-  stroke: #7b1315a1;
+  stroke: rgba(255, 255, 255, 0.7);
 }
 
 .skills-section .mu-svg-b #CSS3 {
@@ -727,7 +728,7 @@ body {
 }
 
 .skills-section .mu-svg-b #CSS3:hover {
-  stroke: #7b1315a1;
+  stroke: rgba(255, 255, 255, 0.7);
 }
 
 .skills-section .mu-svg-b #JavaScript {
@@ -737,7 +738,7 @@ body {
 }
 
 .skills-section .mu-svg-b #JavaScript:hover {
-  stroke: #7b1315a1;
+  stroke: rgba(255, 255, 255, 0.7);
 }
 
 .skills-section .mu-svg-b #ReactJs {
@@ -747,7 +748,7 @@ body {
 }
 
 .skills-section .mu-svg-b #ReactJs:hover {
-  stroke: #7b1315a1;
+  stroke: rgba(255, 255, 255, 0.7);
 }
 
 .skills-section .mu-svg-b #UIKIT {
@@ -757,7 +758,7 @@ body {
 }
 
 .skills-section .mu-svg-b #UIKIT:hover {
-  stroke: #7b1315a1;
+  stroke: rgba(255, 255, 255, 0.7);
 }
 
 .skills-section .mu-svg-b #HTML5 {
@@ -767,7 +768,7 @@ body {
 }
 
 .skills-section .mu-svg-b #HTML5:hover {
-  stroke: #7b1315a1;
+  stroke: rgba(255, 255, 255, 0.7);
 }
 
 .skills-section .mu-svg-b .mu-hover-part {
@@ -776,7 +777,7 @@ body {
 }
 
 .skills-section .mu-svg-b .mu-hover-part:hover {
-  stroke: #7b1315a1;
+  stroke: rgba(255, 255, 255, 0.7);
 }
 
 .project-section {
