@@ -1,3 +1,33 @@
+$(window).on("load", function () {
+  fun_display_loader();
+  setTimeout(fun_play_img(), 500);
+  setTimeout(fun_display_img, 1500);
+});
+
+function fun_display_loader() {
+  $("#loader").css("display", "none");
+}
+function fun_play_img() {
+  $("#mu-tran").addClass("Move");
+  $(".mu-main").css("display", "block");
+}
+function fun_display_img() {
+  $("#mu-tran").css("display", "none");
+}
+
+$(window).scroll(function () {
+  var offset = $(window).scrollTop();
+  offset = offset * 0.2;
+
+  $(".mu-img-scroll").css({
+    "-moz-transform": "rotate(" + offset + "deg)",
+    "-webkit-transform": "rotate(" + offset + "deg)",
+    "-o-transform": "rotate(" + offset + "deg)",
+    "-ms-transform": "rotate(" + offset + "deg)",
+    transform: "rotate(" + offset + "deg)",
+  });
+});
+
 $(document).ready(function () {
   var controller = new ScrollMagic.Controller();
 
