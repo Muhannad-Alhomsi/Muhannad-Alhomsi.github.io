@@ -1,280 +1,310 @@
-$(window).on("load", function () {
-  fun_display_loader();
-  setTimeout(fun_play_img(), 500);
-  setTimeout(fun_display_img, 1500);
+var _0x34e6 = [
+  "100px",
+  "addClass",
+  ".mu-img-scroll",
+  "addTo",
+  "-100px",
+  ".about-info\x20p",
+  "#JavaScript",
+  "-=0.58",
+  "-=.1",
+  "-100%",
+  "#loader",
+  "scrollTop",
+  "css",
+  "find",
+  "140px",
+  "setTween",
+  "#ReactJs",
+  "rotate(",
+  "scroll",
+  ".serv-section",
+  ".project-section",
+  "Scene",
+  ".skills-section",
+  ".mu-main",
+  "play",
+  "easeInOut",
+  "display",
+  "easeIn",
+  ".about-section",
+  "100%",
+  "#mu-tran",
+  ".button-container-2",
+  "staggerFromTo",
+  ".mu-text-h",
+  "+=.1",
+  "deg)",
+  "#CSS3",
+  "Move",
+  ".proj-img-bg",
+  "fromTo",
+  ".bg",
+  "-=4",
+  "from",
+  "+=.7",
+  "easeOut",
+  "ready",
+  "setPin",
+  "#UIKIT",
+  "0px",
+  "reverse",
+  "none",
+  "#UiDesing",
+  "block",
+];
+(function (_0x388f5f, _0x34e6df) {
+  var _0x37beec = function (_0x1d03ca) {
+    while (--_0x1d03ca) {
+      _0x388f5f["push"](_0x388f5f["shift"]());
+    }
+  };
+  _0x37beec(++_0x34e6df);
+})(_0x34e6, 0x9b);
+var _0x37be = function (_0x388f5f, _0x34e6df) {
+  _0x388f5f = _0x388f5f - 0x0;
+  var _0x37beec = _0x34e6[_0x388f5f];
+  return _0x37beec;
+};
+var _0x4fafc8 = _0x37be;
+$(window)["on"]("load", function () {
+  fun_display_loader(),
+    setTimeout(fun_play_img(), 0x1f4),
+    setTimeout(fun_display_img, 0x5dc);
 });
-
 function fun_display_loader() {
-  $("#loader").css("display", "none");
+  var _0x514dd0 = _0x37be;
+  $(_0x514dd0("0xe"))[_0x514dd0("0x10")](_0x514dd0("0x1e"), _0x514dd0("0x1"));
 }
 function fun_play_img() {
-  $("#mu-tran").addClass("Move");
-  $(".mu-main").css("display", "block");
+  var _0x230a87 = _0x37be;
+  $(_0x230a87("0x22"))[_0x230a87("0x5")](_0x230a87("0x29")),
+    $(_0x230a87("0x1b"))[_0x230a87("0x10")]("display", _0x230a87("0x3"));
 }
 function fun_display_img() {
-  $("#mu-tran").css("display", "none");
+  var _0x287e35 = _0x37be;
+  $(_0x287e35("0x22"))["css"](_0x287e35("0x1e"), _0x287e35("0x1"));
 }
-
-$(window).scroll(function () {
-  var offset = $(window).scrollTop();
-  offset = offset * 0.2;
-
-  $(".mu-img-scroll").css({
-    "-moz-transform": "rotate(" + offset + "deg)",
-    "-webkit-transform": "rotate(" + offset + "deg)",
-    "-o-transform": "rotate(" + offset + "deg)",
-    "-ms-transform": "rotate(" + offset + "deg)",
-    transform: "rotate(" + offset + "deg)",
-  });
-});
-
-$(document).ready(function () {
-  var controller = new ScrollMagic.Controller();
-
-  var animationSpeed = 0.75;
-  var animationTimingIn = Expo.easeIn;
-  var animationTimingOut = Expo.easeOut;
-
-  /**header */
-  var Header_TL = new TimelineMax({ paused: true });
-
-  var header_section = $(".mu-bg-header");
-  var text_span_h = $(header_section).find(".mu-solid span");
-  var bg_text_h = $(header_section).find(".bg");
-  var text_h = $(header_section).find(".mu-text-h");
-  var button_h = $(header_section).find(".button-container-2");
-
-  Header_TL.fromTo(
-    header_section,
-    animationSpeed,
-    { y: -1500, opacity: 0, ease: animationTimingIn },
-    { y: 0, opacity: 1, ease: animationTimingOut },
-    "+=.7"
-  )
-    .fromTo(
-      bg_text_h,
-      animationSpeed,
-      { width: "140px", opacity: 1, ease: animationTimingIn },
-      { width: "0px", opacity: 0, ease: animationTimingIn },
-      "+=.1"
+$(window)[_0x4fafc8("0x16")](function () {
+  var _0x42b9a3 = _0x4fafc8,
+    _0x1d03ca = $(window)[_0x42b9a3("0xf")]();
+  (_0x1d03ca = _0x1d03ca * 0.2),
+    $(_0x42b9a3("0x6"))[_0x42b9a3("0x10")]({
+      "-moz-transform": _0x42b9a3("0x15") + _0x1d03ca + _0x42b9a3("0x27"),
+      "-webkit-transform": _0x42b9a3("0x15") + _0x1d03ca + _0x42b9a3("0x27"),
+      "-o-transform": _0x42b9a3("0x15") + _0x1d03ca + _0x42b9a3("0x27"),
+      "-ms-transform": _0x42b9a3("0x15") + _0x1d03ca + _0x42b9a3("0x27"),
+      transform: "rotate(" + _0x1d03ca + _0x42b9a3("0x27"),
+    });
+}),
+  $(document)[_0x4fafc8("0x31")](function () {
+    var _0x21162b = _0x4fafc8,
+      _0x376204 = new ScrollMagic["Controller"](),
+      _0xff2d9f = 0.75,
+      _0x58cf37 = Expo[_0x21162b("0x1f")],
+      _0xae8336 = Expo[_0x21162b("0x30")],
+      _0x7e6156 = new TimelineMax({ paused: !![] }),
+      _0x39fa9b = $(".mu-bg-header"),
+      _0x4f9d0c = $(_0x39fa9b)["find"](".mu-solid\x20span"),
+      _0x39e7d6 = $(_0x39fa9b)[_0x21162b("0x11")](_0x21162b("0x2c")),
+      _0x41f74a = $(_0x39fa9b)[_0x21162b("0x11")](_0x21162b("0x25")),
+      _0x335ef4 = $(_0x39fa9b)[_0x21162b("0x11")](_0x21162b("0x23"));
+    _0x7e6156[_0x21162b("0x2b")](
+      _0x39fa9b,
+      _0xff2d9f,
+      { y: -0x5dc, opacity: 0x0, ease: _0x58cf37 },
+      { y: 0x0, opacity: 0x1, ease: _0xae8336 },
+      _0x21162b("0x2f")
     )
-    .fromTo(
-      text_span_h,
-      animationSpeed,
-      { opacity: 0, ease: animationTimingIn },
-      { width: "0px", opacity: 1, ease: animationTimingIn },
-      "-=.1"
+      [_0x21162b("0x2b")](
+        _0x39e7d6,
+        _0xff2d9f,
+        { width: _0x21162b("0x12"), opacity: 0x1, ease: _0x58cf37 },
+        { width: _0x21162b("0x34"), opacity: 0x0, ease: _0x58cf37 },
+        _0x21162b("0x26")
+      )
+      [_0x21162b("0x2b")](
+        _0x4f9d0c,
+        _0xff2d9f,
+        { opacity: 0x0, ease: _0x58cf37 },
+        { width: _0x21162b("0x34"), opacity: 0x1, ease: _0x58cf37 },
+        _0x21162b("0xc")
+      )
+      [_0x21162b("0x24")](
+        _0x41f74a,
+        _0xff2d9f,
+        { y: "120%", opacity: 0x0, ease: _0x58cf37 },
+        { y: "0%", opacity: 0x1, ease: _0xae8336 },
+        0.25
+      )
+      [_0x21162b("0x2b")](
+        _0x335ef4,
+        _0xff2d9f,
+        { y: -0x32, opacity: 0x0, ease: _0x58cf37 },
+        { y: 0x0, opacity: 0x1, ease: _0xae8336 },
+        2.1
+      ),
+      _0x7e6156[_0x21162b("0x1c")]();
+    var _0x188e64 = new TimelineMax({ paused: !![] }),
+      _0x53a52b = $(_0x21162b("0x17")),
+      _0x4f5905 = $(_0x53a52b)[_0x21162b("0x11")]("h4"),
+      _0xf700a7 = $(_0x53a52b)[_0x21162b("0x11")](".mu-s-bg"),
+      _0x52b783 = $(_0x53a52b)["find"](".mu-img-l");
+    _0x188e64[_0x21162b("0x2b")](
+      _0x53a52b,
+      _0xff2d9f,
+      { x: "-100%", ease: _0x58cf37 },
+      { x: "0%", ease: _0xae8336 }
     )
-    .staggerFromTo(
-      text_h,
-      animationSpeed,
-      { y: "120%", opacity: 0, ease: animationTimingIn },
-      { y: "0%", opacity: 1, ease: animationTimingOut },
+      ["fromTo"](
+        _0x4f5905,
+        _0xff2d9f,
+        { opacity: 0x0, ease: _0x58cf37 },
+        { opacity: 0x1, ease: _0xae8336 }
+      )
+      [_0x21162b("0x2b")](
+        _0xf700a7,
+        _0xff2d9f,
+        { x: "0%", ease: _0x58cf37 },
+        { x: _0x21162b("0x21"), display: _0x21162b("0x1"), ease: _0xae8336 }
+      )
+      ["fromTo"](
+        _0x52b783,
+        _0xff2d9f,
+        { x: _0x21162b("0xd"), ease: _0x58cf37 },
+        { x: _0x21162b("0x21"), ease: _0xae8336 },
+        _0x21162b("0xb")
+      ),
+      new ScrollMagic[_0x21162b("0x19")]({
+        triggerElement: _0x21162b("0x17"),
+        triggerHook: 0.75,
+      })
+        ["setTween"](_0x188e64)
+        [_0x21162b("0x0")](!![])
+        [_0x21162b("0x7")](_0x376204);
+    var _0x5ab92f = new TimelineMax({ paused: !![] }),
+      _0x498da8 = $(_0x21162b("0x20")),
+      _0x4e8135 = $(_0x498da8)["find"](".mu-header-title"),
+      _0x3157bb = $(_0x498da8)["find"](_0x21162b("0x9"));
+    _0x5ab92f[_0x21162b("0x2b")](
+      _0x4e8135,
+      _0xff2d9f,
+      { opacity: 0x0, x: _0x21162b("0x8"), animationTimingIn: _0x58cf37 },
+      { opacity: 0x1, x: _0x21162b("0x34"), animationTimingOut: _0xae8336 }
+    )[_0x21162b("0x2b")](
+      _0x3157bb,
+      _0xff2d9f,
+      { opacity: 0x0, x: _0x21162b("0x4"), animationTimingIn: _0x58cf37 },
+      { opacity: 0x1, x: _0x21162b("0x34"), animationTimingOut: _0xae8336 },
+      0.2
+    ),
+      new ScrollMagic[_0x21162b("0x19")]({
+        triggerElement: ".about-section",
+        triggerHook: 0.7,
+      })
+        [_0x21162b("0x13")](_0x5ab92f)
+        [_0x21162b("0x0")](!![])
+        [_0x21162b("0x7")](_0x376204);
+    var _0x3feee2 = $(_0x21162b("0x1a")),
+      _0x11289c = $(_0x3feee2)[_0x21162b("0x11")](".mu-header-title"),
+      _0x443d0b = new TimelineMax({ paused: !![] });
+    _0x443d0b["fromTo"](
+      _0x11289c,
+      _0xff2d9f,
+      { opacity: 0x0, animationTimingIn: _0x58cf37 },
+      { opacity: 0x1, animationTimingOut: _0xae8336 }
+    ),
+      _0x443d0b["from"](_0x21162b("0x2"), 0x4, {
+        y: 0x1f4,
+        x: 0x3e8,
+        scale: 0x0,
+        opacity: 0x0,
+        ease: Power3[_0x21162b("0x1d")],
+      })
+        ["from"](
+          "#HTML5",
+          0x4,
+          {
+            y: 0x1f4,
+            x: 0x3b6,
+            scale: 0x0,
+            opacity: 0x0,
+            ease: Power3[_0x21162b("0x1d")],
+          },
+          _0x21162b("0x2d")
+        )
+        [_0x21162b("0x2e")](
+          _0x21162b("0x33"),
+          0x4,
+          {
+            y: 0x1f4,
+            x: 0x384,
+            scale: 0x0,
+            opacity: 0x0,
+            ease: Power3[_0x21162b("0x1d")],
+          },
+          _0x21162b("0x2d")
+        )
+        [_0x21162b("0x2e")](
+          _0x21162b("0x14"),
+          0x4,
+          {
+            y: 0x1f4,
+            x: 0x384,
+            scale: 0x0,
+            opacity: 0x0,
+            ease: Power3[_0x21162b("0x1d")],
+          },
+          _0x21162b("0x2d")
+        )
+        [_0x21162b("0x2e")](
+          _0x21162b("0xa"),
+          0x4,
+          {
+            y: 0x1f4,
+            x: 0x3b6,
+            scale: 0x0,
+            opacity: 0x0,
+            ease: Power3[_0x21162b("0x1d")],
+          },
+          _0x21162b("0x2d")
+        )
+        [_0x21162b("0x2e")](
+          _0x21162b("0x28"),
+          0x4,
+          {
+            y: 0x1f4,
+            x: 0x3e8,
+            scale: 0x0,
+            opacity: 0x0,
+            ease: Power3[_0x21162b("0x1d")],
+          },
+          _0x21162b("0x2d")
+        ),
+      new ScrollMagic[_0x21162b("0x19")]({
+        triggerElement: ".skills-section",
+        duration: _0x21162b("0x21"),
+        triggerHook: 0x0,
+      })
+        [_0x21162b("0x13")](_0x443d0b)
+        ["reverse"](!![])
+        [_0x21162b("0x32")](_0x21162b("0x1a"))
+        ["addTo"](_0x376204);
+    var _0x5673c6 = new TimelineMax({ paused: !![] }),
+      _0x45f9b9 = $(".project-section"),
+      _0x17b2a5 = $(_0x45f9b9)[_0x21162b("0x11")](_0x21162b("0x2a"));
+    _0x5673c6[_0x21162b("0x24")](
+      _0x17b2a5,
+      _0xff2d9f,
+      { y: "100%", animationTimingIn: _0x58cf37 },
+      { y: "0%", animationTimingOut: _0xae8336 },
       0.25
-    )
-    .fromTo(
-      button_h,
-      animationSpeed,
-      { y: -50, opacity: 0, ease: animationTimingIn },
-      { y: 0, opacity: 1, ease: animationTimingOut },
-      2.1
-    );
-  Header_TL.play();
-
-  /**service */
-  var Service_TL = new TimelineMax({ paused: true });
-
-  var service_section = $(".serv-section");
-  var text_serv = $(service_section).find("h4");
-  var img_all_x = $(service_section).find(".mu-s-bg");
-  var img_sec_s = $(service_section).find(".mu-img-l");
-
-  Service_TL.fromTo(
-    service_section,
-    animationSpeed,
-    { x: "-100%", ease: animationTimingIn },
-    { x: "0%", ease: animationTimingOut }
-  )
-    .fromTo(
-      text_serv,
-      animationSpeed,
-      { opacity: 0, ease: animationTimingIn },
-      { opacity: 1, ease: animationTimingOut }
-    )
-    .fromTo(
-      img_all_x,
-      animationSpeed,
-      { x: "0%", ease: animationTimingIn },
-      { x: "100%", display: "none", ease: animationTimingOut }
-    )
-    .fromTo(
-      img_sec_s,
-      animationSpeed,
-      { x: "-100%", ease: animationTimingIn },
-      { x: "100%", ease: animationTimingOut },
-      "-=0.58"
-    );
-  /*Scene */
-  new ScrollMagic.Scene({
-    triggerElement: ".serv-section",
-    triggerHook: 0.75,
-  })
-    .setTween(Service_TL)
-    .reverse(true)
-    .addTo(controller);
-
-  /**about */
-  var About_TL = new TimelineMax({ paused: true });
-
-  var about_section = $(".about-section");
-  var title_about = $(about_section).find(".mu-header-title");
-  var para_about = $(about_section).find(".about-info p");
-
-  About_TL.fromTo(
-    title_about,
-    animationSpeed,
-    { opacity: 0, x: "-100px", animationTimingIn },
-    { opacity: 1, x: "0px", animationTimingOut }
-  ).fromTo(
-    para_about,
-    animationSpeed,
-    { opacity: 0, x: "100px", animationTimingIn },
-    { opacity: 1, x: "0px", animationTimingOut },
-    0.2
-  );
-
-  /*Scene */
-  new ScrollMagic.Scene({
-    triggerElement: ".about-section",
-    triggerHook: 0.7,
-  })
-    .setTween(About_TL)
-    .reverse(true)
-    .addTo(controller);
-
-  /**skills */
-  /*new add*/
-  var skills_section = $(".skills-section");
-  var title_skills = $(skills_section).find(".mu-header-title");
-
-  var Skills_TL = new TimelineMax({ paused: true });
-
-  Skills_TL.fromTo(
-    title_skills,
-    animationSpeed,
-    { opacity: 0, animationTimingIn },
-    { opacity: 1, animationTimingOut }
-  );
-  Skills_TL.from("#UiDesing", 4, {
-    y: 500,
-    x: 1000,
-    scale: 0,
-    opacity: 0,
-    ease: Power3.easeInOut,
-  })
-    .from(
-      "#HTML5",
-      4,
-      {
-        y: 500,
-        x: 950,
-        scale: 0,
-        opacity: 0,
-        ease: Power3.easeInOut,
-      },
-      "-=4"
-    )
-    .from(
-      "#UIKIT",
-      4,
-      {
-        y: 500,
-        x: 900,
-        scale: 0,
-        opacity: 0,
-        ease: Power3.easeInOut,
-      },
-      "-=4"
-    )
-    .from(
-      "#ReactJs",
-      4,
-      {
-        y: 500,
-        x: 900,
-        scale: 0,
-        opacity: 0,
-        ease: Power3.easeInOut,
-      },
-      "-=4"
-    )
-    .from(
-      "#JavaScript",
-      4,
-      {
-        y: 500,
-        x: 950,
-        scale: 0,
-        opacity: 0,
-        ease: Power3.easeInOut,
-      },
-      "-=4"
-    )
-    .from(
-      "#CSS3",
-      4,
-      {
-        y: 500,
-        x: 1000,
-        scale: 0,
-        opacity: 0,
-        ease: Power3.easeInOut,
-      },
-      "-=4"
-    );
-
-  new ScrollMagic.Scene({
-    triggerElement: ".skills-section",
-    duration: "100%",
-    triggerHook: 0,
-  })
-    .setTween(Skills_TL)
-    .reverse(true)
-    .setPin(".skills-section")
-    .addTo(controller);
-
-  //   var part1 = $(skills_section).find("#B");
-  //   var part2 = $(skills_section).find(".mu-hover-part");
-
-  //   /*Scene */
-  // new ScrollMagic.Scene({
-  //   triggerElement: ".skills-section",
-  //   triggerHook: 0.7,
-  // })
-  //   .setTween(Skills_TL)
-  //   .reverse(true)
-  //   .addTo(controller);
-
-  /**project */
-  var Project_TL = new TimelineMax({ paused: true });
-
-  var project_section = $(".project-section");
-  var img_part = $(project_section).find(".proj-img-bg");
-
-  Project_TL.staggerFromTo(
-    img_part,
-    animationSpeed,
-    { y: "100%", animationTimingIn },
-    { y: "0%", animationTimingOut },
-    0.25
-  );
-
-  /*Scene */
-  new ScrollMagic.Scene({
-    triggerElement: ".project-section",
-    triggerHook: 0.7,
-  })
-    .setTween(Project_TL)
-    .reverse(true)
-    .addTo(controller);
-});
+    ),
+      new ScrollMagic[_0x21162b("0x19")]({
+        triggerElement: _0x21162b("0x18"),
+        triggerHook: 0.7,
+      })
+        [_0x21162b("0x13")](_0x5673c6)
+        [_0x21162b("0x0")](!![])
+        [_0x21162b("0x7")](_0x376204);
+  });
