@@ -530,7 +530,6 @@ body {
 .mu-height {
   margin-top: 20px;
   margin-bottom: 25px;
-  background-image: url("../img/bg-img-center.png");
   height: 75vh;
   background-position: left;
   background-size: cover;
@@ -1229,25 +1228,16 @@ body {
   }
 }
 
-@media only screen and (max-width: 798px) {
-  .mu-height {
-    background-position: 33%;
-  }
-}
 
 @media only screen and (max-width: 700px) {
-  .mu-height {
-    height: 60vh;
-  }
+
   .mu-bg-header .mu-pos {
     margin-top: 15%;
   }
 }
 
 @media only screen and (max-width: 610px) {
-  .mu-height {
-    background-position: 35%;
-  }
+
   .mu-header-title .mu-title {
     font-size: 45px;
   }
@@ -1260,38 +1250,12 @@ body {
 }
 
 @media only screen and (max-width: 440px) {
-  .mu-height {
-    background-position: 36%;
-    margin-top: 20%;
-  }
   .mu-header-title .mu-title {
     font-size: 30px;
   }
 }
 
-@media only screen and (max-width: 411px) {
-  .mu-height {
-    background-position: 39%;
-  }
-}
 
-@media only screen and (max-width: 375px) {
-  .mu-height {
-    background-position: 42%;
-  }
-}
-
-@media only screen and (max-width: 360px) {
-  .mu-height {
-    background-position: 38%;
-  }
-}
-
-@media only screen and (max-width: 332px) {
-  .mu-height {
-    background-position: 42%;
-  }
-}
 
 @media only screen and (max-width: 640px) {
   .mu-bg-header h2 {
