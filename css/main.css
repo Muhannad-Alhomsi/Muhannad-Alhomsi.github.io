@@ -62,7 +62,13 @@ body {
 .mu-header-title svg {
   margin: 2px 0px 40px;
 }
-
+.FWh{
+  color:white;
+  font-size: 24px;
+}
+.wrapReverse{
+  flex-wrap: wrap-reverse;
+}
 .button-container-2 {
   position: relative;
   width: 100%;
