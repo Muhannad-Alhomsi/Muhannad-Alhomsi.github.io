@@ -62,13 +62,8 @@ body {
 .mu-header-title svg {
   margin: 2px 0px 40px;
 }
-.FWh{
-  color:white;
-  font-size: 24px;
-}
-.wrapReverse{
-  flex-wrap: wrap-reverse;
-}
+
+
 .button-container-2 {
   position: relative;
   width: 100%;
@@ -542,7 +537,8 @@ body {
 }
 
 .mu-bg-header .mu-pos {
-  margin-top: 20%;
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
 
 .mu-bg-header p {
@@ -572,18 +568,25 @@ body {
   font-size: 40px;
   font-weight: 700;
   letter-spacing: 1px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-top: 0px;
 }
 
 .mu-bg-header h2 {
-  font-size: 84px;
+  font-size: 60px;
   margin: 0px;
   -webkit-text-stroke: 1px var(--color-white);
   text-stroke: 1px var(--color-white);
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
   color: transparent;
+}
+
+.FWh{
+  color:white;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .mu-bg-header .mu-scroll {
